@@ -1,4 +1,7 @@
- "" + 1 + 0    	undefined
+#JSFundementals 
+##Question 1
+Predict what each will do in a console.log()
+"" + 1 + 0    	undefined
 "" - 1 + 0	undefined
 true + false	FALSE
 !true	FALSE
