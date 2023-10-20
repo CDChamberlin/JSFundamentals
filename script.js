@@ -40,3 +40,11 @@ if (null) console.log('null is true')
 if (-1) console.log('negative is true')
 if (1) console.log('positive is true') */
 
+// Question 4 given code
+let a = 2, b = 3;
+let result = `${a} + ${b} is `;
+if (a + b < 10) {
+result += 'less than 10';
+} else {
+result += 'greater than 10';
+}

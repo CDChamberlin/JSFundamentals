@@ -31,4 +31,5 @@ Predict what each will do in a console.log()
 - 0 is false in if statements, so this statement won't log to the console
 - "0" is returns as a non-empty string so this evuates true, and logs to the console. Same for -1. 
 - null also results in false in if statements, so this line won't print as well.
-- 1 is true in if statements, so this logs to the console. 
+- 1 is true in if statements, so this logs to the console.
+ ## Qusetion 4
