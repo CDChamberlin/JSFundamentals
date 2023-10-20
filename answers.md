@@ -27,3 +27,8 @@ Predict what each will do in a console.log()
 - Subtration: Works fine. Answer is -1.
 - lessThan1: String comparison, results in correct answer, because both are one digit numbers.
 - lessThan2: String comparison, answer given true, expected answer false. "30" as a string comes before "4". 
+## Question 3
+- 0 is false in if statements, so this statement won't log to the console
+- "0" is returns as a non-empty string so this evuates true, and logs to the console. Same for -1. 
+- null also results in false in if statements, so this line won't print as well.
+- 1 is true in if statements, so this logs to the console. 

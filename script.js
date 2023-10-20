@@ -18,7 +18,7 @@
 // console.log(undefined === null)
 // console.log(" \t \n" - 2)
 
-//Question 2
+//Question 2 given code
 
 let three = "3"
 let four = "4"
@@ -31,3 +31,12 @@ let subtraction = three - four
 let lessThan1 = three < four
 let lessThan2 = thirty < four
 // console.log(lessThan1)
+
+// Question 3 given code
+/*
+if (0) console.log('#1 zero is true')
+if ("0") console.log('#2 zero is true')
+if (null) console.log('null is true')
+if (-1) console.log('negative is true')
+if (1) console.log('positive is true') */
+
