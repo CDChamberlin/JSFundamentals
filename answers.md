@@ -33,3 +33,13 @@ Predict what each will do in a console.log()
 - null also results in false in if statements, so this line won't print as well.
 - 1 is true in if statements, so this logs to the console.
  ## Qusetion 4
+ - 2 + 3 is less than 10
+ - 9 +3 is greater than 10
+ - 9 + null is less than 10
+ - 9 + NaN is greater than 10
+ - 9 + -inf broke code, Some programs I've used had this literal defined.
+ - 9 + -Infinity is less than 10
+ - 9 + Infinity is greater than 10
+
+ a += b is a short hand for a = a + b. Works with other math symbols, "- , *,  /."
+   
