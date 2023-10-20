@@ -12,3 +12,7 @@
 // console.log(" -9 " + 5)
 // console.log(" -9 " - 5)
 // console.log(null + 1)
+//console.log(undefined+1)
+//console.log(undefined == null)
+// console.log(undefined === null)
+// console.log(" \t \n" - 2)

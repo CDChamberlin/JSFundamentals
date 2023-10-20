@@ -16,7 +16,7 @@ Predict what each will do in a console.log()
 |"   -9    "  + 5 |	-95|" -9 5"|
 |"    -9    "  - 5| -14|-14|
 |null + 1| null|1|
-|undefined + 1|undefined||
-|undefined == null|TRUE||
-|undefined === null|FALSE||
-| " \t  \n" - 2| undefined||
+|undefined + 1|undefined|NaN|
+|undefined == null|TRUE|true|
+|undefined === null|FALSE|false|
+| " \t  \n" - 2| undefined| -2|
