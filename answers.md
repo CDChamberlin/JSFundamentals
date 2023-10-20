@@ -20,3 +20,10 @@ Predict what each will do in a console.log()
 |undefined == null|TRUE|true|
 |undefined === null|FALSE|false|
 | " \t  \n" - 2| undefined| -2|
+## Question 2
+- Addition will have a value of 34, since string addition is concatination. 
+- Multiplication will have a value of 12, since JS can read strings as numbers when doing "*, /, and -".
+-Division: Expected float, but didn't get one. Gave correct answer of .75.
+- Subtration: Works fine. Answer is -1.
+- lessThan1: String comparison, results in correct answer, because both are one digit numbers.
+- lessThan2: String comparison, answer given true, expected answer false. "30" as a string comes before "4". 

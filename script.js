@@ -1,3 +1,4 @@
+// Quetion  1 console logs
 // console.log(""+1+0);
 // console.log(""-1+0);
 // console.log(true + false);
@@ -16,3 +17,17 @@
 //console.log(undefined == null)
 // console.log(undefined === null)
 // console.log(" \t \n" - 2)
+
+//Question 2
+
+let three = "3"
+let four = "4"
+let thirty = "30"
+//what is the value of the following expressions?
+let addition = three + four
+let multiplication = three * four
+let division = three / four
+let subtraction = three - four
+let lessThan1 = three < four
+let lessThan2 = thirty < four
+// console.log(lessThan1)
