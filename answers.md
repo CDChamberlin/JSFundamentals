@@ -53,5 +53,5 @@ To chain the methods, the method called had to return the object, hence adding `
 ## Question 8
 ## Question 9
 Since dog1 is a string, dog2 doesn't point to it. Since cat2 and moresports are objects, the point to their orginal objects and modify them.
-
+## Question 10
    

@@ -167,4 +167,27 @@ let cat2 = {...cat1}
 cat2.name = "Bear"
 dog2 = dog1
 dog2 = "Spot"
-console.log(dog1, cat1, teamSports, moreSports)
+//console.log(dog1, cat1, teamSports, moreSports)
+
+//Question 10
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+    this.human = true;
+    this.canDrive = () => age > 16
+    }
+person1 = new Person("Spot", 3)
+person2 = new Person("Collin", 26)
+class PersonClass{
+    constructor(name, age){
+        this.name = name;
+        this.age = age;
+        this.human = true;
+    }
+    canDrive() {
+        return (this.age >= 16)
+    }
+}
+person3 = new PersonClass("Joe", 26)
+console.log(person1, person2, person3)
+console.log(person1.canDrive(), person2.canDrive(), person3.canDrive())
