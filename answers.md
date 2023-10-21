@@ -42,4 +42,11 @@ Predict what each will do in a console.log()
  - 9 + Infinity is greater than 10
 
  a += b is a short hand for a = a + b. Works with other math symbols, "- , *,  /."
+## Question 5
+- ``const getGreeting = function(){
+    return 'Hello ' + arguents[0] + '!'
+}``
+- `const getGreeting = name => 'Hello ' + name+'!'`
+
+
    

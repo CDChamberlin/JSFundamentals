@@ -50,5 +50,20 @@ result += 'less than 10';
 result += 'greater than 10';
 }
  */
-console.log(a + b < 10 ? 
-    result += 'less than 10' : result += 'greater than 10')
+// console.log(a + b < 10 ? result += 'less than 10' : result += 'greater than 10')
+
+// Question 5 given code
+/*
+function getGreeting(name) {
+return 'Hello ' + name + '!';
+}
+*/
+
+const getGreeting1 = function() {
+    return 'Hello ' + arguments[0] +'!';
+}
+
+const getGreeting2 = name => 'Hello ' + name + '!'
+//console.log(getGreeting("Collin"))
+// console.log(getGreeting1('Collin'))
+// console.log(getGreeting2(`Collin`))
