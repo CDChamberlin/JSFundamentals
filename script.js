@@ -69,23 +69,29 @@ const getGreeting2 = name => 'Hello ' + name + '!'
 // console.log(getGreeting2(`Collin`))
 
 // Question 6 given code
+
 const westley = {
-    name: 'Westley',
-    numFingers: 5
-    }
-    const rugen = {
-    name: 'Count Rugen',
-    numFingers: 6
-    }
-    const inigo = {
-    firstName: 'Inigo',
+    name: "Westley",
+    numFingers: 5,
+  };
+  const rugen = {
+    name: "Count Rugen",
+    numFingers: 6,
+  };
+  const inigo = {
+    firstName: "Inigo",
     greeting(person) {
-    let greeting = `Hello ${person.name}, my name is ${this.firstName}. `;
-    console.log(greeting + this.getCatchPhrase(person));
+      let greeting = `Hello ${person.name}, my name is ${this.firstName}. `;
+      console.log(greeting + this.getCatchPhrase(person));
     },
-    getCatchPhrase(person) {
-    return 'Nice to meet you.';
-    }
-    }
-    inigo.greeting(westley)
-    inigo.greeting(rugen)
+    getCatchPhrase: (person) =>
+      person.numFingers === 6 ? "You killed my father! Prepare to die!" : "Nice to meet you",
+    //{
+    // if (person.numFingers === 6) return "I have six fingers";
+    // else return "Nice to meet you.";
+    // console.log('getCatchPhrase')
+    //}
+  };
+  inigo.greeting(westley);
+  inigo.greeting(rugen);
+  
