@@ -86,12 +86,14 @@ const inigo = {
     console.log(greeting + this.getCatchPhrase(person));
   },
   getCatchPhrase: (person) =>
-    person.numFingers === 6 ? "You killed my father! Prepare to die!" : "Nice to meet you",
-  //{
+    person.numFingers === 6
+      ? "You killed my father! Prepare to die!"
+      : "Nice to meet you",
+  /*{
   // if (person.numFingers === 6) return "I have six fingers";
   // else return "Nice to meet you.";
   // console.log('getCatchPhrase')
-  //}
+  }*/
 };
 // inigo.greeting(westley);
 // inigo.greeting(rugen);
@@ -139,17 +141,30 @@ const sydney = {
   founded: "26 January 1788",
   timezone: "Australia/Sydney",
 };
- function loopObjects(obj){
-    for (key in obj){
-        console.log(`${key}: ${obj[key]}`)
-    }
- }
- loopObjects(sydney)
- const DC ={
-    name: "Washington, DC",
-    population: 5_490_000,
-    state: "Washington, DC",
-    founded: "July 16, 1790",
-    timezone: "Estern Daylight Time"
- }
- loopObjects(DC)
+function loopObjects(obj) {
+  for (key in obj) {
+    console.log(`${key}: ${obj[key]}`);
+  }
+}
+//loopObjects(sydney)
+const DC = {
+  name: "Washington, DC",
+  population: 5_490_000,
+  state: "Washington, DC",
+  founded: "July 16, 1790",
+  timezone: "Estern Daylight Time",
+};
+//loopObjects(DC)
+
+//Question 9
+let teamSports = ["Hockey", "Cricket", "Volleyball"];
+let dog1 = "Bingo";
+let cat1 = { name: "Fluffy", breed: "Siberian" };
+let moreSports = teamSports.slice()
+moreSports.push("Baseball")
+moreSports.unshift("Soccer")
+let cat2 = {...cat1}
+cat2.name = "Bear"
+dog2 = dog1
+dog2 = "Spot"
+console.log(dog1, cat1, teamSports, moreSports)
