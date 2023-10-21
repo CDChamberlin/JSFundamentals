@@ -50,6 +50,6 @@ Predict what each will do in a console.log()
 ## Question 6
 ## Quesiont 7
 To chain the methods, the method called had to return the object, hence adding `return this` to each. 
-
+## Question 8
 
    
