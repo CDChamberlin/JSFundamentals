@@ -69,6 +69,7 @@ const getGreeting2 = name => 'Hello ' + name + '!'
 // console.log(getGreeting2(`Collin`))
 
 // Question 6 given code
+/*
 const westley = {
     name: 'Westley',
     numFingers: 5
@@ -89,3 +90,38 @@ const westley = {
     }
     inigo.greeting(westley)
     inigo.greeting(rugen)
+*/
+
+// Question 7
+const basketballGame = {
+    score: 0, fouls: 0,
+    freeThrow() {
+    this.score++;
+    return this;
+    },
+    basket() {
+    this.score += 2;
+    return this
+    },
+    threePointer() {
+    this.score += 3;
+    return this
+    },
+    halfTime() {
+    console.log('Halftime score is '+this.score +
+    ', and there have been '+this.fouls+' fouls up to now.');
+    return this
+    },
+    foul(){
+        this.fouls++;
+        return this;
+    },
+    fullTime(){
+    console.log('The final score is '+this.score+
+    ', and there have been '+this.fouls+' fouls during the whole game.');
+    return this
+    }
+    }
+    //modify each of the above object methods to enable function chaining as below:
+    basketballGame.basket().freeThrow().freeThrow().basket().threePointer().halfTime();
+    basketballGame.foul().basket().threePointer().foul().halfTime().freeThrow().foul().threePointer().basket().fullTime()

@@ -47,6 +47,9 @@ Predict what each will do in a console.log()
     return 'Hello ' + arguents[0] + '!'
 }``
 - `const getGreeting = name => 'Hello ' + name+'!'`
+## Question 6
+## Quesiont 7
+To chain the methods, the method called had to return the object, hence adding `return this` to each. 
 
 
    
