@@ -93,8 +93,8 @@ const inigo = {
   // console.log('getCatchPhrase')
   //}
 };
-inigo.greeting(westley);
-inigo.greeting(rugen);
+// inigo.greeting(westley);
+// inigo.greeting(rugen);
 
 // Question 7
 /*
@@ -139,3 +139,17 @@ const sydney = {
   founded: "26 January 1788",
   timezone: "Australia/Sydney",
 };
+ function loopObjects(obj){
+    for (key in obj){
+        console.log(`${key}: ${obj[key]}`)
+    }
+ }
+ loopObjects(sydney)
+ const DC ={
+    name: "Washington, DC",
+    population: 5_490_000,
+    state: "Washington, DC",
+    founded: "July 16, 1790",
+    timezone: "Estern Daylight Time"
+ }
+ loopObjects(DC)
